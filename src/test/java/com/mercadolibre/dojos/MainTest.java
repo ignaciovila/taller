@@ -130,7 +130,6 @@ public class MainTest {
         int[] array = {1, 2, 3, 4, 5};
 
         List<Integer[]> result = Main.fourNumberSum(array, 100);
-        List<Integer[]> expected = Collections.emptyList();
 
         Assert.assertEquals(0, result.size());
     }
